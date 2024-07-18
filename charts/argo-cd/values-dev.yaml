@@ -284,7 +284,7 @@ configs:
     ## List of additional namespaces where applications may be created in and reconciled from.
     ## The namespace where Argo CD is installed will always be allowed.
     ## Set comma-separated list. (e.g. app-team-one, app-team-two)
-    application.namespaces: "cert-manager, doppler-kubernetes-operator, external-secrets, gadget, keptn-system, komodor, kube-node-lease, kube-public, kube-system, localstack, metallb-system, nats, netdata, npd, ortelius, reloader, traefik-v2"
+    application.namespaces: "cert-manager, doppler-kubernetes-operator, external-secrets, gadget, keptn-system, komodor, kube-node-lease, kube-public, kube-system, localstack, metallb-system, nats, netdata, npd, ortelius, reloader, traefik"
 
     # -- JQ Path expression timeout
     ## By default, the evaluation of a JQPathExpression is limited to one second.
